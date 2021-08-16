@@ -1,0 +1,61 @@
+body {
+  background-color: lightgray;
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  background-color: lightgray;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li a {
+  color: grey;
+  padding: 5px;
+  font-size: larger;
+}
+
+li a:hover {
+  color: white;
+  background-color: grey;
+  border-radius: 10px;
+}
+
+
+.top{
+    background-color: yellow;
+    padding: 10px;
+    position:fixed;
+    right:10px;
+    bottom: 50px;
+    color:black;
+}
+#home{
+  
+    display: flex;
+    justify-content: space-between;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+ justify-content: space-between;
+    
+}
+span{
+  color:yellow
+}
+button{
+  width:50%
+}
